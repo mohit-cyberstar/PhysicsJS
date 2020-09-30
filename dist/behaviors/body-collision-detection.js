@@ -224,7 +224,7 @@
                 d.set( 1, 0 );
             }
     
-            if ( overlap <= 0 ){
+            if ( overlap >= 0 ){
     
                 collision = {
                     bodyA: bodyA,
